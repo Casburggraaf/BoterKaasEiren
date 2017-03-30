@@ -1,0 +1,71 @@
+body, html, main {
+	background-color: #20C4FE;
+	color: black;
+	text-align: center;
+    font-family: helvetica;
+    color: white;
+    text-transform: uppercase;
+}
+
+main {
+	text-align: center;
+}
+
+#sidebar {
+    font-size: 3rem;
+    top: 9%;
+    position: fixed;
+    left: 80%;
+    width: 17%;
+    height: 60%;
+    border: 2px solid white;
+    padding: 20px;
+}
+
+#scoreGeel {
+    margin: 0 1rem;
+    font-size: 5rem;
+    color: #F7DD2F;   
+}
+
+#scoreGroen {
+    margin: 0 1rem;
+    font-size: 5rem;
+    color: #7BD289;
+}
+
+.sidebaruitleg {
+    font-size: 1rem;
+}
+
+.sidebarTekst {
+    font-size: 1.5rem;
+}
+
+.sidebarTekst:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+table {
+	border-spacing: 15px;
+	width: 70%;
+	margin: 0 25% 0 5%;
+	text-align: center;	
+}
+
+td {
+	margin: 30px;
+	width: 200px;
+	height: 200px;
+	border: 2px white solid;
+	border-radius: 10px;
+	background-color: #20C4FE;
+}
+
+.green {
+	background-color: #7BD289;
+}
+
+.yellow {
+	background-color: #F7DD2F;
+}
